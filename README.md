@@ -1,5 +1,5 @@
 ## Welcome to My world!
 
-### Markdown
+### Who am I?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing.
+Hi! My name is Ville Kähärä and I am a Bachelor of Engineering student with degree programme in information technology. I specialize in game programming. I love coffee and problem solving.
