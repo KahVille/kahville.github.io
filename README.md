@@ -8,4 +8,5 @@ If you want to chat about coffee or discuss about future employment opportunitie
 You can check out my work here on [GitHub](https://github.com/KahVille)
 or on [Bitbucket](https://bitbucket.org/KahVille)
 
+
 You can also find me on [linkedIn](www.linkedin.com/in/villekahara)
