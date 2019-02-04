@@ -1,24 +1,20 @@
 <template>
   <v-app dark>
-    <!-- add header section some how-->
     <v-content>
       <Home/>
     </v-content>
+      <Footer/>
   </v-app>
 </template>
 
 <script>
-import Home from './views/Home'
-
+const Home = () => import('./views/Home')
+const Footer = () => import('./components/Footer')
 export default {
   name: 'App',
   components: {
-    Home
-  },
-  data () {
-    return {
-      //
-    }
+    Home,
+    Footer
   }
 }
 </script>
