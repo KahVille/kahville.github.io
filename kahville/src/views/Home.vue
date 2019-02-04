@@ -1,13 +1,15 @@
 <template>
-  <HelloWorld />
+  <v-container align-center>
+    <ProfileCard />
+  </v-container>
+
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
-
-  export default {
-    components: {
-      HelloWorld
-    }
+import ProfileCard from '../components/ProfileCard'
+export default {
+  components: {
+    ProfileCard
   }
+}
 </script>
