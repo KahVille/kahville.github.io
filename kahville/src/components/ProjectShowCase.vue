@@ -3,21 +3,9 @@
     <h2>Recent projects</h2>
 
     <v-container grid-list-xs>
-      <v-layout row wrap>
-        <v-flex xs4 >
+      <v-layout align-center justify-center row wrap>
+        <v-flex>
           <ProjectCard></ProjectCard>
-        </v-flex>
-        <v-flex xs4>
-        <ProjectCard></ProjectCard>
-        </v-flex>
-                <v-flex>
-        <ProjectCard></ProjectCard>
-        </v-flex>
-                <v-flex xs4>
-        <ProjectCard></ProjectCard>
-        </v-flex>
-                <v-flex xs4 >
-        <ProjectCard></ProjectCard>
         </v-flex>
       </v-layout>
     </v-container>
