@@ -6,13 +6,13 @@
         <img src="../assets/omakuva.jpg" alt="avatar">
     </v-avatar>
         <v-container>
-        <v-btn icon small target="_blank" rel="noopener" href="https://www.github.com/KahVille">
+        <v-btn icon target="_blank" rel="noopener" href="https://www.github.com/KahVille">
        <font-awesome-icon size="2x" :icon="['fab', 'github']" />
         </v-btn>
-        <v-btn icon small target="_blank" rel="noopener" href="https://www.linkedin.com/in/villekahara">
+        <v-btn icon target="_blank" rel="noopener" href="https://www.linkedin.com/in/villekahara">
        <font-awesome-icon size="2x" :icon="['fab', 'linkedin']" />
         </v-btn>
-        <v-btn icon small target="_blank" rel="noopener" href="mailto:kahara.ville@gmail.com">
+        <v-btn icon href="mailto:kahara.ville@gmail.com">
         <font-awesome-icon size="2x" icon="envelope" />
         </v-btn>
         </v-container>
