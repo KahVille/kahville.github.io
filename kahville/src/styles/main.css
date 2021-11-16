@@ -1,0 +1,168 @@
+/* Icons */ 
+@import url('fontawesome.css');
+@import url('brands.css');
+@import url('solid.css');
+
+/* Colors */
+:root {
+    --main-bg-color: #303030;
+    --main-text-color: #ffffff;
+    --card-bg-color: #424242;
+    --card-shadow-color: rgba(0, 0, 0, .2);
+}
+
+/* Styles */
+/* Basic */
+html, body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    line-height: 1.5em;
+    font-family: 'Roboto',sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+footer .wrapper {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header > h1 {
+    line-height: 1.6em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    color: var(--main-text-color);
+    transition: filter 0.2s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    a:hover {
+        filter: brightness(150%);
+    }
+    .profile-links > li > a:hover {
+        filter: brightness(68%);
+    }
+}
+
+.btn {
+    background-color: var(--main-bg-color);
+    color: white;
+    padding: .5em .75em;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* Base Card Styles */ 
+.card {
+    background-color: var(--card-bg-color);
+    color: var(--main-text-color);
+    padding: 1rem;
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
+
+.card.card-shadow {
+    border: none;
+    box-shadow: 0 2px 5px var(--card-shadow-color);
+}
+
+.card-header {
+    margin-bottom: .5rem;
+}
+
+.card-footer {
+    margin-top: 1rem;
+}
+
+.card-footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-footer > ul >li  {
+    display:inline;
+}
+
+.card-footer > ul > li > a {
+    display:inline-block;
+    text-decoration: none;
+    margin: 0;
+}
+
+.card-footer > ul > li > a:last-child {
+    margin-top: 10px
+}
+
+/* Profile card*/
+
+.profile-card {
+    flex: 1;
+}
+
+.profile-card > img {
+    display:block;
+    margin:auto;
+    padding: 1em;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    max-width: 128px;
+    object-fit: cover;
+}
+
+.profile-links {
+    text-align: center;
+    list-style-type: none;
+    margin: 28px; 
+    padding: 0;
+}
+
+.profile-links > li {
+    display:inline;
+}
+
+.profile-links > li > a {
+    color: var(--main-text-color);
+    font-size: 1.6rem;
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+}
+
+/* Projects */
+
+.recent-projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Project card*/
+.project-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem;
+}
+
+.project-card > .card-body > img {
+    width: 100%;
+    height: auto;
+    max-height: 128px;
+    object-fit: cover;
+}
